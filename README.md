@@ -27,7 +27,7 @@ Antes de iniciar, certifique-se de ter os seguintes softwares instalados no seu 
 ## 🚀 Instalação e Configuração
 
 ### 1. Clone ou baixe o repositório:
-cmd
+```bash
 git clone [https://github.com/julio-gaban/parabank-automated-tests.git](https://github.com/julio-gaban/parabank-automated-tests.git)
 cd parabank-automated-tests
 
