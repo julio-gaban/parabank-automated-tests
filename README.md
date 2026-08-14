@@ -64,6 +64,7 @@ pip install behave selenium webdriver-manager allure-behave
 ```
 
 📂 Estrutura do Projeto
+
 ├── features/
 │   ├── login.feature         # Cenários de BDD para Login
 │   ├── register.feature      # Cenários de BDD para Cadastro
