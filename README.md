@@ -80,7 +80,44 @@ pip install behave selenium webdriver-manager allure-behave
 └── README.md                 # Documentação do projeto
 ```
 
-## 🧪 Como Executar os Testes
+## 🧪 Como Executar os Testes gerando o Relatório de Testes nativo do Behave
+Se desejar executar todos os testes da suíte:
+```bash
+behave
+```
+Se desejar executar um arquivo de feature em específico:
+```bash
+# Executar apenas os testes de login
+behave features/login.feature
+
+# Executar apenas os testes de cadastro
+behave features/register.feature
+
+# Executar apenas os testes de transferência
+behave features/transfer.feature
+```
+Se desejar executar um ou mais cenários de uma tag específica:
+```bash
+behave --tags=@[tag_do_cenario]
+```
+
+### Gerando o relatório simples em HTML
+
+Instale o formatador:
+```bash
+pip install behave-html-formatter
+```
+Execute gerando o arquivo HTML:
+```bash
+behave -f html -o report.html
+```
+### Gerando o relatório no Formato JUnit (XML)
+Opção útil para integração contínua (CI/CD) em pipelines como GitHub Actions, Jenkins ou Azure DevOps:
+```bash
+behave --junit --junit-directory reports_junit
+```
+
+## 🧪 Como Executar os Testes gerando o Relatório de Testes com o Allure
 ### 1. Limpeza de Resultados Anteriores (Opcional)
 Se desejar limpar os resultados de execuções passadas antes de rodar novos testes:
 
