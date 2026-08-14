@@ -65,6 +65,7 @@ pip install behave selenium webdriver-manager allure-behave
 
 📂 Estrutura do Projeto
 
+```text
 ├── features/
 │   ├── login.feature         # Cenários de BDD para Login
 │   ├── register.feature      # Cenários de BDD para Cadastro
@@ -77,6 +78,7 @@ pip install behave selenium webdriver-manager allure-behave
 ├── .gitignore                # Arquivos ignorados pelo Git
 ├── requirements.txt          # Dependências do projeto
 └── README.md                 # Documentação do projeto
+```
 
 ## 🧪 Como Executar os Testes
 ### 1. Limpeza de Resultados Anteriores (Opcional)
