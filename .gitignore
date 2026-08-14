@@ -1,0 +1,82 @@
+# ==========================================
+# Ambientes Virtuais (Python)
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Relatórios e Artefatos do Allure
+# ==========================================
+allure-results/
+allure-report/
+.allure/
+allure-2.45.0/
+
+# ==========================================
+# Python (Arquivos temporários e Cache)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# IDES e Editores de Código
+# ==========================================
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# ==========================================
+# Logs e Evidências locais
+# ==========================================
+*.log
+geckodriver.log
+ghostdriver.log
+screenshots/
+*.png
+*.jpg
+
+# ==========================================
+# Sistema Operacional
+# ==========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSSharedFileList
