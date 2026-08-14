@@ -193,13 +193,13 @@ allure-2.45.0\bin\allure.bat serve allure-results
 
 ### 📈 Reports dos testes por feature no formato JUnit (XML)
 
-#### transfer.feature:
+#### Transferência de Fundos:
 <img width="1906" height="943" alt="image" src="https://github.com/user-attachments/assets/ed1090b0-4585-4991-af98-3679be0b513d" />
 
-#### register.feature:
+#### Registro de Usuário:
 <img width="1907" height="943" alt="image" src="https://github.com/user-attachments/assets/70e11cfc-4f9d-4f38-921f-f90e517bfea5" />
 
-#### login.feature:
+#### Login:
 <img width="1911" height="949" alt="image" src="https://github.com/user-attachments/assets/2d220751-b96e-435c-bb0c-5bf418dccd1c" />
 
 ### 📈 Reports dos testes por feature no formato HTML nativo do Behave
