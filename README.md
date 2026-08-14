@@ -120,9 +120,13 @@ behave --junit --junit-directory reports_junit
 ## 🧪 Como Executar os Testes gerando o Relatório de Testes com o Allure
 
 ### Obter versão mais recente do Allure
+```text
+O Allure Framework foi integrado ao projeto para fornecer relatórios de execução claros e detalhados. Ele gera um dashboard web interativo que exibe o histórico de testes, tempo de execução, severidade das falhas e captura automática de screenshots no exato momento de um erro, facilitando a triagem de bugs por desenvolvedores e QAs.
+
 Faça o o download da versão mais recente do Allure no link: https://github.com/allure-framework/allure2/releases
 Extraia a pasta do arquivo baixado
 Copie e cole a pasta do Allure na pasta raiz do projeto
+```
 
 Ou para o Windows, o Allure está disponível através do instalador de linha de comando do Scoop. Para instalar o Allure, baixe e instale o Scoop e execute o seguinte comando no PowerShell:
 ```bash
