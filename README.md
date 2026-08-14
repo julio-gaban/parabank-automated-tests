@@ -189,7 +189,29 @@ allure-2.45.0\bin\allure.bat serve allure-results
 
 (O comando acima criará um servidor HTTP local e abrirá o relatório automaticamente no seu navegador padrão).
 
-## 📸 Evidências da Execução dos Testes
+## 📸 Evidências da Execução dos Testes com os reports gerados nativamente pelo Behave
+
+### 📈 Reports dos testes por feature no formato JUnit (XML)
+
+#### transfer.feature:
+<img width="1906" height="943" alt="image" src="https://github.com/user-attachments/assets/ed1090b0-4585-4991-af98-3679be0b513d" />
+
+#### register.feature:
+<img width="1907" height="943" alt="image" src="https://github.com/user-attachments/assets/70e11cfc-4f9d-4f38-921f-f90e517bfea5" />
+
+#### login.feature:
+<img width="1911" height="949" alt="image" src="https://github.com/user-attachments/assets/2d220751-b96e-435c-bb0c-5bf418dccd1c" />
+
+### 📈 Reports dos testes por feature no formato HTML nativo do Behave
+
+#### Feature de Login
+<img width="1913" height="907" alt="image" src="https://github.com/user-attachments/assets/517fade9-b541-401f-a865-979c5ffc794e" />
+
+#### Feature de registro de usuário
+<img width="1908" height="907" alt="image" src="https://github.com/user-attachments/assets/eed799bf-d6bc-484f-9341-4f67386331a8" />
+
+#### Feature de transferência de fundos
+<img width="1914" height="911" alt="image" src="https://github.com/user-attachments/assets/d7b6f189-a2c1-4cc3-ae6e-fa49906db0b8" />
 
 ### 📈 Overview do Report no Allure
 <img width="1904" height="918" alt="image" src="https://github.com/user-attachments/assets/39a1ad21-a5ea-4ff1-b47d-29331342d262" />
