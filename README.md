@@ -45,19 +45,19 @@ pip install -r requirements.txt
 
 ## 📂 Estrutura do Projeto:
 
-├── allure-2.45.0/          # Executável e binários locais do Allure
+```text
 ├── features/
-│   ├── environment.py      # Hooks do Behave (WebDriver, timeouts e screenshots)
-│   ├── login.feature       # Cenários em Gherkin para Login
-│   ├── register.feature    # Cenários em Gherkin para Registro
-│   ├── transfer.feature    # Cenários em Gherkin para Transferência
-│   └── steps/
-│       ├── login_steps.py    # Definições de passos do Login
-│       ├── register_steps.py # Definições de passos do Registro
-│       └── transfer_steps.py # Definições de passos da Transferência
-├── .gitignore              # Arquivos ignorados pelo Git
-├── README.md               # Documentação do projeto
-└── requirements.txt        # Dependências Python
+│   ├── login.feature         # Cenários de BDD para Login
+│   ├── register.feature      # Cenários de BDD para Cadastro
+│   ├── transfer.feature      # Cenários de BDD para Transferências
+│   ├── steps/                # Implementação dos Steps em Python
+│   │   ├── login_steps.py
+│   │   ├── register_steps.py
+│   │   └── transfer_steps.py
+│   └── environment.py        # Hooks do Behave (Before/After Scenario)
+├── .gitignore                # Arquivos ignorados pelo Git
+├── requirements.txt          # Dependências do projeto
+└── README.md                 # Documentação do projeto
 
 ## 🧪 Como Executar os Testes
 
@@ -88,3 +88,37 @@ Após a execução dos testes, utilize a instalação local do Allure para abrir
 allure-2.45.0\bin\allure.bat serve allure-results
 
 (O comando acima criará um servidor HTTP local e abrirá o relatório automaticamente no seu navegador padrão).
+
+## Evidências da execução dos testes
+
+# Overview do report do Allure:
+<img width="1904" height="918" alt="image" src="https://github.com/user-attachments/assets/39a1ad21-a5ea-4ff1-b47d-29331342d262" />
+
+# Erros encontrados nos testes divididos por categorias no report (no caso product defects):
+<img width="1902" height="911" alt="image" src="https://github.com/user-attachments/assets/5f11363e-f349-4cdc-9caf-c81e9c7cb014" />
+
+# Suítes de teste com seus respectivos cenários de teste (exemplo de cenário de sucesso):
+<img width="1909" height="917" alt="image" src="https://github.com/user-attachments/assets/35bb9b68-7e3d-4e96-b993-ad893c5dce61" />
+
+# Suítes de teste com seus respectivos cenários de teste (exemplo de cenário de falha):
+<img width="1900" height="911" alt="image" src="https://github.com/user-attachments/assets/b35b0418-0988-4837-900d-d8a9ff19f92c" />
+
+#Exemplo de screenshot gerado pelo Allure quando um erro ocorre:
+<img width="1894" height="917" alt="image" src="https://github.com/user-attachments/assets/9be8fb95-60b7-40c4-8829-724be4de5453" />
+<img width="1904" height="909" alt="image" src="https://github.com/user-attachments/assets/86c86e85-fce2-4e41-a877-d6d9e77b8805" />
+
+#Casos de teste separados por cada arquivo de feature ou behavior:
+<img width="1904" height="913" alt="image" src="https://github.com/user-attachments/assets/7635a752-f7da-4461-bed8-aa7dd3107055" />
+
+# Gráficos gerados pelo Allure exibindo os status dos testes, duração dos mesmos e a severidade dos erros encontrados:
+<img width="1883" height="914" alt="image" src="https://github.com/user-attachments/assets/335a84c1-911b-4781-84af-d66fe513caca" />
+
+# Gráfico da duração dos testes na timeline de sua execução:
+<img width="1908" height="906" alt="image" src="https://github.com/user-attachments/assets/3451b574-06d9-4356-bff7-ea616ff34471" />
+
+
+
+
+
+
+
