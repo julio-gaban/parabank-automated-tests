@@ -118,6 +118,21 @@ behave --junit --junit-directory reports_junit
 ```
 
 ## 🧪 Como Executar os Testes gerando o Relatório de Testes com o Allure
+
+### Obter versão mais recente do Allure
+Faça o o download da versão mais recente do Allure no link: https://github.com/allure-framework/allure2/releases
+Extraia a pasta do arquivo baixado
+Copie e cole a pasta do Allure na pasta raiz do projeto
+
+Ou para o Windows, o Allure está disponível através do instalador de linha de comando do Scoop. Para instalar o Allure, baixe e instale o Scoop e execute o seguinte comando no PowerShell:
+```bash
+scoop install allure
+```
+
+Ou no Linux/MacOS, utilizando o Homebrew:
+```bash
+$ brew install allure
+```
 ### 1. Limpeza de Resultados Anteriores (Opcional)
 Se desejar limpar os resultados de execuções passadas antes de rodar novos testes:
 
