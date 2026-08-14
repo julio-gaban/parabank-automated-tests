@@ -41,7 +41,10 @@ python3 -m venv venv
 source venv/bin/activate   
 
 ## 2. Instale as dependências do projeto:
-pip install -r requirements.txt
+pip install behave
+pip install selenium
+pip install webdriver-manager
+pip install allure-behave
 
 ## 📂 Estrutura do Projeto:
 
