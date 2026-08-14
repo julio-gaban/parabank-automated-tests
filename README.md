@@ -27,8 +27,8 @@ Antes de iniciar, certifique-se de ter os seguintes softwares instalados no seu 
 
 1. **Clone ou baixe o repositório:**
    ```cmd
-   git clone <url-do-seu-repositorio>
-   cd <nome-da-pasta-do-projeto>
+   git clone https://github.com/julio-gaban/parabank-automated-tests.git
+   cd parabank-automated-tests
 
 ## 1. Crie e ative um ambiente virtual (Recomendado):
 
@@ -58,6 +58,7 @@ pip install -r requirements.txt
 ├── .gitignore                # Arquivos ignorados pelo Git
 ├── requirements.txt          # Dependências do projeto
 └── README.md                 # Documentação do projeto
+```
 
 ## 🧪 Como Executar os Testes
 
