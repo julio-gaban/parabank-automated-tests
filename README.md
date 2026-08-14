@@ -109,7 +109,7 @@ pip install behave-html-formatter
 ```
 Execute gerando o arquivo HTML:
 ```bash
-behave -f html -o report.html
+behave -f behave_html_formatter:HTMLFormatter -o report.html
 ```
 ### Gerando o relatório no Formato JUnit (XML)
 Opção útil para integração contínua (CI/CD) em pipelines como GitHub Actions, Jenkins ou Azure DevOps:
