@@ -184,7 +184,7 @@ Após a execução dos testes, utilize o Allure para abrir o painel de relatóri
 
 **DOS**
 ```bash
-allure-2.45.0\bin\allure.bat serve allure-results
+allure-2.45.0\allure-2.45.0\bin\allure.bat serve allure-results
 ```
 
 (O comando acima criará um servidor HTTP local e abrirá o relatório automaticamente no seu navegador padrão).
