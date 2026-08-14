@@ -30,7 +30,7 @@ Antes de iniciar, certifique-se de ter os seguintes softwares instalados no seu 
 ```bash
 git clone [https://github.com/julio-gaban/parabank-automated-tests.git](https://github.com/julio-gaban/parabank-automated-tests.git)
 cd parabank-automated-tests
-
+```
 2. Crie e ative um ambiente virtual (Recomendado):
 Windows:
 
